@@ -6,6 +6,7 @@ Cada diretório principal contém um design pattern.
 Padrões atualmente disponíveis:
 
 - Strategy
+  Defineum conjunto de algoritmos encapsulados, intercambiáveis e variáveis entre as classes que os utilizam.
 
 ##### UML
 
@@ -17,6 +18,6 @@ Conectores:
 
 - Generalização (herança : simples ou composta) - Relacionamento entre um elemento mais geral e um mais específico. Onde o elemento mais específico herda as propriedades e métodos do elemento mais geral. A relação de generalização também é conhecida como herança no modelo a objetos. Como a relação de dependência, ela existe só entre as classes. Um objeto particular não é um caso geral de um outro objeto, só conceitos (classes no modelo a objetos) são generalização de outros conceitos.
 
-* Agregação Regular - tipo de associação ( é parte de , todo/parte) onde o objeto parte é um atributo do todo ; onde os objetos partes somente são criados se o todo ao qual estão agregados seja criado. Pedidos é composto por itens de pedidos.
+- Agregação Regular - tipo de associação ( é parte de , todo/parte) onde o objeto parte é um atributo do todo ; onde os objetos partes somente são criados se o todo ao qual estão agregados seja criado. Pedidos é composto por itens de pedidos.
 
-* Composição - Relacionamento entre um elemento ( o todo) e outros elementos (as partes) onde as parte só podem pertencer ao todo e são criadas e destruídas com ele.
+- Composição - Relacionamento entre um elemento ( o todo) e outros elementos (as partes) onde as parte só podem pertencer ao todo e são criadas e destruídas com ele.
