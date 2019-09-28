@@ -11,8 +11,8 @@ cart.addProduct(pants);
 cart.addProduct(shirt);
 
 // payment decisions
-cart.pay(new PayPalAlgorithm('vjblan@gmail.com', 'password'));
-cart.pay(new CreditCardAlgorithm('Vj Blan', '12345'));
+cart.pay(new PayPalAlgorithm('joe@where.com', 'password'));
+cart.pay(new CreditCardAlgorithm('joe doe', '12345'));
 
 
 
