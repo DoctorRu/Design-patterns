@@ -9,6 +9,8 @@ Padrões atualmente disponíveis:
 
 - Observer: Define uma relação "um para muitos" entre um conjunto de objetos. Quando o estado de um dos objetos é alterado todos seus dependentes são notificados.
 
+- Decorator: Permite adicionar um comportamento a um objeto já existente em tempo de execução, ou seja, agrega dinamicamente responsabilidades adicionais a um objeto. Decorators oferecem uma alternativa flexível ao uso de herança para estender uma funcionalidade, com isso adiciona-se uma responsabilidade ao objeto e não à classe.
+
 ##### Antes de iniciar
 
 Instalar o transpilador/executor **ts-node**
