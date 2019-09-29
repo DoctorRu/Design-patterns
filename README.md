@@ -15,6 +15,8 @@ Instalar o transpilador/executor **ts-node**
 
     npm i -g ts-node
 
+##### Os padrões design
+
 Executar o arquivo main.ts relativo a cada diretório
 
     ts-node main.ts
