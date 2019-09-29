@@ -7,7 +7,7 @@ Padrões atualmente disponíveis:
 
 - Strategy: Define um conjunto de algoritmos encapsulados, intercambiáveis e variáveis entre as classes que os utilizam.
 
-- Observer: Define uma relação "um para muitos" entre um conjunto de objetos. Quando o estado de um dos objetos é alterado, todos seus dependentes são notificados.
+- Observer: Define uma relação "um para muitos" entre um conjunto de objetos. Quando o estado de um dos objetos é alterado todos seus dependentes são notificados.
 
 ##### Antes de iniciar
 
