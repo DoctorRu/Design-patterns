@@ -11,7 +11,7 @@ export class CreditCardAlgorithm implements Payment {
     }
 
     pay(amount: number): void {
-        console.log(`${amount} paid with Card`)
+        console.log(`${amount} paid with Card`);
     }
 
 }

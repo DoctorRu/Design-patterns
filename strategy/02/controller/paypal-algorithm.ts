@@ -7,7 +7,7 @@ export class PayPalAlgorithm implements Payment {
 
     constructor(email: string, password: string) {
         this._email = email;
-        this._password = password
+        this._password = password;
     }
 
     pay(amount: number): void {

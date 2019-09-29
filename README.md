@@ -5,12 +5,23 @@ Cada diretório principal contém um design pattern.
 
 Padrões atualmente disponíveis:
 
-- Strategy
-  Defineum conjunto de algoritmos encapsulados, intercambiáveis e variáveis entre as classes que os utilizam.
+- Strategy: Define um conjunto de algoritmos encapsulados, intercambiáveis e variáveis entre as classes que os utilizam.
+
+- Observer: Define uma relação "um para muitos" entre um conjunto de objetos. Quando o estado de um dos objetos é alterado, todos seus dependentes são notificados.
+
+##### Antes de iniciar
+
+Instalar o transpilador/executor **ts-node**
+
+    npm i -g ts-node
+
+Executar o arquivo main.ts relativo a cada diretório
+
+    ts-node main.ts
 
 ##### UML
 
-Conectores:
+![Conectores UML](https://raw.githubusercontent.com/DoctorRu/design-patterns/master/conectores.gif)
 
 - Associação : São relacionamentos estruturais entre instâncias e especificam que objetos de uma classe estão ligados a objetos de outras classes. Podemos ter associação uniaria , binária , etc.
 
